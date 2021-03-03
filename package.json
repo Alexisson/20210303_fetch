@@ -5,10 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev":"nodemon ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Ivan Shirokov <ivan.a.shirokov@ya.ru>",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.1"
